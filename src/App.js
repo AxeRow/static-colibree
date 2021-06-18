@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from './assets/images/logo.png';
 
 function App() {
-  return (
+  return ( 
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+       <img src={logo} className="" alt="logo"></img>
         <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+         <h1>Cette partie du site est en cours de maintenance !</h1>
+    
+         <h2>La page que vous recherchez est en cours de maintenance, nous vous suggérons de revenir dans quelque temps. Vous pouvez revenir à la page d'accuei.</h2>
+        </p>        
     </div>
   );
 }
