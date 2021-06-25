@@ -1,0 +1,83 @@
+body {
+    font-family: roboto;
+    background: white;
+    margin: 40px;
+}
+
+ svg {
+     z-index: -1;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image1 {
+    align-self: center;
+    width: 500px;
+}
+
+.image2 {
+    align-self: flex-start;
+    width: 700px;
+    display: flex;
+    text-align: left;
+}
+
+.texte {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.bouton {
+
+    width: 80px;
+    margin: auto;
+    text-align: center;
+    background: #d79430;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.bouton a{
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 1024px) {
+    .bouton {
+        display: "";
+        background: "";
+    }
+    
+}
+
+@media screen and (min-width: 320px) and (max-width: 600px) {
+    .bouton {
+        display: "";
+        background: "";
+    }
+    
+}
+
+@media screen and (min-width: 600px) and (max-width: 1024px) {
+    .bouton {
+        display: "";
+        background: "";
+    }
+    
+}
